@@ -566,13 +566,117 @@ article a{ font-weight:700; text-decoration:none; }
   .form-grid{ grid-template-columns:1fr; }
   .footer-grid{ grid-template-columns:1fr 1fr; }
 }
-@media(max-width:640px){
-  header{ justify-content:center; text-align:center; }
-  .brand{ text-align:center; }
-  nav{ justify-content:center; gap:12px; }
-  nav a{ font-size:12px; }
+@media (max-width:768px){
+
+header{
+    flex-direction:column;
+    padding:18px;
+}
+
+.brand h1{
+    font-size:2rem;
+}
+
+nav{
+    gap:18px;
+}
+
+nav a{
+    font-size:11px;
+    letter-spacing:1px;
+}
+}
   .steps{ grid-template-columns:1fr; }
   .footer-grid{ grid-template-columns:1fr; }
   .hero-caption{ position:static; transform:none; margin:26px auto 0; }
   .hero-stage{ min-height:auto; }
+}
+
+@media (max-width:768px){
+
+.button,
+nav .nav-cta{
+
+    padding:14px 28px;
+
+    font-size:14px;
+
+    box-shadow:3px 3px 0 var(--black);
+
+}
+}
+
+@media (max-width:768px){
+
+.hero-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+.hero-image{
+
+    width:100%;
+
+}
+
+.hero-text{
+
+    width:100%;
+
+}
+}
+@media (max-width:768px){
+
+.hero{
+
+    padding:30px 20px;
+
+}
+
+section{
+
+    padding:40px 20px;
+
+}
+
+}
+.hero-card{
+
+    padding:28px;
+
+    border-radius:20px;
+
+}
+
+.hero-card p{
+
+    font-size:1.15rem;
+
+    line-height:1.6;
+
+}
+.hero-image img{
+
+    width:100%;
+
+    display:block;
+
+    object-fit:cover;
+
+    border-radius:30px;
+
+}
+@media(max-width:768px){
+
+.logo{
+
+    font-size:2rem;
+
+}
+
 }
