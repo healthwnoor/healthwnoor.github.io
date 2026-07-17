@@ -190,19 +190,21 @@ font-size:22px;
 
 .button {
 
-display:inline-block;
-
 background:#304B36;
 
 color:white;
 
-padding:14px 30px;
+padding:14px 32px;
 
-border-radius:30px;
+border-radius:50px;
 
 text-decoration:none;
 
-margin:10px;
+font-weight:600;
+
+display:inline-block;
+
+transition:0.3s;
 
 }
 
@@ -211,6 +213,8 @@ margin:10px;
 .button:hover {
 
 background:#7B9272;
+
+transform:translateY(-2px);
 
 }
 
@@ -407,5 +411,71 @@ height:200px;
 
 }
 
+
+}
+
+.brand {
+
+text-align:center;
+
+}
+
+
+.brand h1 {
+
+font-family: Georgia, serif;
+
+letter-spacing:1px;
+
+}
+
+
+
+.brand p {
+
+font-size:16px;
+
+letter-spacing:2px;
+
+text-transform:uppercase;
+
+color:#66705F;
+
+}
+
+section {
+
+background:#FFFFFF;
+
+border-radius:18px;
+
+margin:40px auto;
+
+box-shadow:0 5px 20px rgba(48,75,54,0.06);
+
+}
+
+section h2 {
+
+border-left:6px solid #7B9272;
+
+padding-left:15px;
+
+}
+
+footer h3 {
+
+font-size:24px;
+
+margin-bottom:10px;
+
+}
+
+
+footer p {
+
+margin:5px;
+
+font-size:14px;
 
 }
