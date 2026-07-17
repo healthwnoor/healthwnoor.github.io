@@ -26,7 +26,7 @@ color:#2d2d2d;
 
 header {
 
-background:#ffffff;
+background:#FAFAF7;
 
 padding:30px 20px;
 
@@ -44,7 +44,7 @@ font-size:45px;
 
 margin-bottom:5px;
 
-color:#304b36;
+color:#304B36;
 
 }
 
@@ -192,7 +192,7 @@ font-size:22px;
 
 display:inline-block;
 
-background:#40513b;
+background:#304B36;
 
 color:white;
 
@@ -210,7 +210,7 @@ margin:10px;
 
 .button:hover {
 
-background:#304b36;
+background:#7B9272;
 
 }
 
@@ -232,7 +232,7 @@ border-radius:15px;
 
 margin:25px 0;
 
-box-shadow:0 5px 20px rgba(0,0,0,0.05);
+box-shadow:0 5px 20px rgba(48,75,54,0.08);
 
 }
 
