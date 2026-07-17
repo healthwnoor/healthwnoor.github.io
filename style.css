@@ -556,117 +556,23 @@ article a{ font-weight:700; text-decoration:none; }
 /* ============================================================
    Responsive
    ============================================================ */
-
-/* ---------- Tablet ---------- */
-@media (max-width: 900px) {
-
-  .about-inner {
-    grid-template-columns: 1fr;
-  }
-
-  .about-card {
-    margin-left: 0;
-    margin-top: -30px;
-  }
-
-  .steps {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .steps::before {
-    display: none;
-  }
-
-  .impact-stats {
-    grid-template-columns: 1fr;
-    gap: 34px;
-  }
-
-  .results-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .form-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-grid {
-    grid-template-columns: 1fr 1fr;
-  }
+@media(max-width:900px){
+  .about-inner{ grid-template-columns:1fr; }
+  .about-card{ margin-left:0; margin-top:-30px; }
+  .steps{ grid-template-columns:1fr 1fr; }
+  .steps::before{ display:none; }
+  .impact-stats{ grid-template-columns:1fr; gap:34px; }
+  .results-grid{ grid-template-columns:1fr; }
+  .form-grid{ grid-template-columns:1fr; }
+  .footer-grid{ grid-template-columns:1fr 1fr; }
 }
-
-/* ---------- Mobile ---------- */
-@media (max-width: 768px) {
-
-  header {
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 18px;
-  }
-
-  .brand {
-    text-align: center;
-  }
-
-  .brand h1,
-  .logo {
-    font-size: 2rem;
-  }
-
-  nav {
-    justify-content: center;
-    gap: 18px;
-    flex-wrap: wrap;
-  }
-
-  nav a {
-    font-size: 11px;
-    letter-spacing: 1px;
-  }
-
-  nav .nav-cta,
-  .button {
-    padding: 14px 28px;
-    font-size: 14px;
-    box-shadow: 3px 3px 0 var(--black);
-  }
-
-  .hero {
-    padding: 30px 20px;
-  }
-
-  .hero-stage {
-    min-height: auto;
-  }
-
-  .hero-caption {
-    position: static;
-    transform: none;
-    margin: 26px auto 0;
-    max-width: 100%;
-    padding: 28px;
-    border-radius: 20px;
-  }
-
-  .hero-caption p {
-    font-size: 1.15rem;
-    line-height: 1.6;
-  }
-
-  .steps {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-grid {
-    grid-template-columns: 1fr;
-  }
-
-  section {
-    padding: 40px 20px;
-  }
-
-}
-}
-
+@media(max-width:640px){
+  header{ justify-content:center; text-align:center; }
+  .brand{ text-align:center; }
+  nav{ justify-content:center; gap:12px; }
+  nav a{ font-size:12px; }
+  .steps{ grid-template-columns:1fr; }
+  .footer-grid{ grid-template-columns:1fr; }
+  .hero-caption{ position:static; transform:none; margin:26px auto 0; }
+  .hero-stage{ min-height:auto; }
 }
