@@ -499,3 +499,61 @@ color:#304B36;
 font-weight:700;
 
 }
+
+/* Portfolio Cards */
+
+
+.card-grid {
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+
+gap:25px;
+
+}
+
+
+
+
+.card {
+
+background:#FFFFFF;
+
+padding:30px;
+
+border-radius:18px;
+
+box-shadow:0 5px 20px rgba(48,75,54,0.08);
+
+transition:0.3s;
+
+}
+
+
+
+.card:hover {
+
+transform:translateY(-5px);
+
+box-shadow:0 10px 25px rgba(48,75,54,0.12);
+
+}
+
+
+
+.card h3 {
+
+color:#304B36;
+
+margin-top:0;
+
+}
+
+
+
+.card p {
+
+color:#2D2D2D;
+
+}
