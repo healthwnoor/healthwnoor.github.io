@@ -137,3 +137,39 @@ border-radius:8px;
 opacity:0.8;
 
 }
+
+.metrics {
+
+display:flex;
+
+gap:30px;
+
+flex-wrap:wrap;
+
+margin-top:30px;
+
+}
+
+
+
+.metrics div {
+
+padding:25px;
+
+background:#f0f3ec;
+
+border-radius:10px;
+
+flex:1;
+
+min-width:200px;
+
+}
+
+
+
+.metrics h3 {
+
+color:#40513b;
+
+}
