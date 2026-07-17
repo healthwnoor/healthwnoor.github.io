@@ -229,3 +229,24 @@ color:#40513b;
 font-weight:normal;
 
 }
+
+.contact-card {
+
+background:white;
+
+padding:30px;
+
+border-radius:10px;
+
+margin:20px 0;
+
+}
+
+
+.contact-card a {
+
+color:#40513b;
+
+font-weight:bold;
+
+}
