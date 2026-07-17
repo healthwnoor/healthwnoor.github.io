@@ -205,3 +205,27 @@ font-weight:bold;
 text-decoration:none;
 
 }
+
+.resume-header {
+
+text-align:center;
+
+padding:50px 20px;
+
+}
+
+
+.resume-header h2 {
+
+font-size:40px;
+
+}
+
+
+.resume-header h3 {
+
+color:#40513b;
+
+font-weight:normal;
+
+}
